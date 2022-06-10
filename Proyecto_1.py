@@ -5,6 +5,6 @@ import selenium as sn
 import yfinance as yf
 import matplotlib.pyplot as plt
 
-militar_companies_list = ['HON', 'RTX', 'LMT', 'ATRO', 'AJRD', 'NOC', 'TXT', 'HEI',]
+militar_companies_list = ['HON', 'RTX', 'LMT', 'ATRO', 'AJRD', 'NOC', 'TXT', 'HEI','HII']
 data = yf.download(militar_companies_list, start = '2022-01-01', end = '2022-05-31')
 
